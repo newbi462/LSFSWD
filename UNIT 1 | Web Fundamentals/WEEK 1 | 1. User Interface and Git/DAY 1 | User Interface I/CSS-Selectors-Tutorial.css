@@ -1,0 +1,31 @@
+* {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-heading {
+  font-size: 24px;
+  color: crimson;
+}
+
+.nav-item {
+  padding: 5px 20px;
+  background: lightgray;
+  border: 1px solid gray;
+  margin: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  color: black;
+}
+
+.nav-item:hover {
+  background: #e3e3e3;
+}
+
+#apply {
+  background: #125127;
+  color: white;
+}
