@@ -1,0 +1,33 @@
+/* element specificity */
+h1 {
+  color: green;
+}
+
+/* class specificity */
+.class {
+  color: blue;
+}
+
+/* multiple class specificity */
+.class.sibling-class {
+  color: red;
+}
+
+/* ID specificity */
+#id {
+  color: purple;
+}
+
+/* !important specificity is the heaviest weight, be careful when using it! */
+.important {
+  color: gray !important;
+}
+
+h1:last-child {
+  color: orange;
+}
+
+/* The pseudo selector is more specific than our class */
+.cant-overwrite {
+  color: red;
+}
