@@ -76,6 +76,7 @@ img {
 .container {
   /*======= create a width property. Set the value to 600px */
   margin: 0 auto;
+  width: 600px
 }
 
 .container header nav a {
