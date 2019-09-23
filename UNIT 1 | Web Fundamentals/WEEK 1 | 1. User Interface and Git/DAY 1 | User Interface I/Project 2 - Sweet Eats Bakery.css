@@ -25,9 +25,10 @@ Stretch Task: Pick a navigation item and create a new page with the same header 
 
 h1 {
   font-family: 'Gaegu', cursive;
-  margin: 20px 0;
+  margin: 20px auto;
   /*=======  Update the font size to 60px and center the text */
-  font-size: 10px;
+  font-size: 60px;
+  width: 475px
 }
 
 h2, h3, h4, h5, h6 {
