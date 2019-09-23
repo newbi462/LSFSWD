@@ -1,0 +1,17 @@
+.box-example {
+  background: gray;
+
+  /* Box Model: Content Area */
+  width: 100px;
+  height: 100px;
+
+  /* Box Model: Padding */
+  padding: 20px;
+  box-sizing: border-box;
+
+  /* Box Model: Border */
+  border: 1px solid black;
+
+  /* Box Model: Margin */
+  margin: 20px;
+}
