@@ -102,6 +102,9 @@ img {
 /*======= Create a selector for the about section to have the following styles:
   margin-top: 20px;
 */
+.about {
+  margin-top: 20px;
+}
 
 .contact-section {
   border-top: 1px dashed black;
