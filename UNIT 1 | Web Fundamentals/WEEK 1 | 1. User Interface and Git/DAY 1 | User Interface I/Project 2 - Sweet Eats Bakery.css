@@ -47,6 +47,12 @@ padding: 10px;
 line-height: 1.4;
 
 */
+p {
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
 
 
 /*======= Create a selector for ALL images in the site to have the following styles:
