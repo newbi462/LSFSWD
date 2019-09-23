@@ -94,7 +94,9 @@ img {
 }
 
 .container header nav a:hover {
-/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+  /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+  background: white;
+  color: pink;
 }
 
 /*======= Create a selector for the about section to have the following styles:
