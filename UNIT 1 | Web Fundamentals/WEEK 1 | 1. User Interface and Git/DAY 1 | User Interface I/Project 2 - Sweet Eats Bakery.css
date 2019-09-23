@@ -149,7 +149,6 @@ footer nav {
   color: black;
   text-decoration: underline;
 */
-
 footer a {
   margin: 10px;
   color: black;
@@ -169,6 +168,9 @@ footer nav a:first-child {
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
   color: white;
 */
+footer a:hover {
+  color: white;
+}
 
 footer .footer-content .copyright {
   padding: 20px 0;
