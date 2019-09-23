@@ -1,0 +1,10 @@
+.box-example {
+  background: gray;
+  width: 100px;
+  height: 100px;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;/*constrains to width height*/
+  border: 2px solid red;
+  margin: 20px;
+}
