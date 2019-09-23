@@ -36,7 +36,7 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Update the font size to 30px */
-  font-size: 10px;
+  font-size: 30px;
 }
 
 /*======= Create a selector for ALL p tags in the site to have the following styles:
