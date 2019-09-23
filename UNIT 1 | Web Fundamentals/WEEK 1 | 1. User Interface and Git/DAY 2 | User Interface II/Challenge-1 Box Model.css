@@ -6,7 +6,9 @@
   background-image: url("https://vignette.wikia.nocookie.net/voltron/images/2/22/Blue_Lion.png/revision/latest/scale-to-width-down/310?cb=20120425013407");
   background-color: blue;
   background-size: contain;
-  color: white;
+  color: blue;
+  font-weight: bold;
+  text-shadow: 2px 1px #18cae6;
 
   position: absolute;
   top: 8px;
@@ -32,7 +34,9 @@
   background-image: url("https://vignette.wikia.nocookie.net/voltron/images/e/e5/Red_Lion_vf.png/revision/latest/scale-to-width-down/300?cb=20120425011942");
   background-color: red;
   background-size: contain;
-  color: white;
+  color: red;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
 
   position: absolute;
   bottom: 8px;
@@ -58,7 +62,9 @@
   background-image: url("https://res.cloudinary.com/teepublic/image/private/s--4yM2iDR4--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1542468922/production/designs/3522657_0.jpg");
   background-color: purple;
   background-size: contain;
-  color: white;
+  color: purple;
+  font-weight: bold;
+  text-shadow: 1px 1px pink;
 
   /* Box Model: Content Area */
   width: 325px;
@@ -80,7 +86,9 @@
   background-image: url("https://vignette.wikia.nocookie.net/voltron/images/4/4f/Yellow_Lion.png/revision/latest/scale-to-width-down/310?cb=20120425013119");
   background-color: yellow;
   background-size: contain;
-  color: white;
+  color: yellow;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 
   position: absolute;
   top: 8px;
@@ -106,7 +114,9 @@
   background-image: url("https://vignette.wikia.nocookie.net/voltron/images/6/6c/Green_Lion.png/revision/latest/scale-to-width-down/310?cb=20120425012906");
   background-color: green;
   background-size: contain;
-  color: white;
+  color: green;
+  font-weight: bold;
+  text-shadow: 1px 1px #39ff14;
 
   position: absolute;
   bottom: 8px;
