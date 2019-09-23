@@ -150,6 +150,17 @@ footer nav {
   text-decoration: underline;
 */
 
+footer a {
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
+/*THIS SHOULD NO LONGER BE CALLED AN anchor tag if this is HTML5*/
+/*In HTML 4.01, the <a> tag could be either a hyperlink or an anchor. In HTML5, the <a> tag is always a hyperlink, but if it has no href attribute, it is only a placeholder for a hyperlink.
+HTML5 has some new attributes, and some HTML 4.01 attributes are no longer supported.
+https://www.w3schools.com/tags/tag_a.asp
+*/
+
 
 footer nav a:first-child {
   margin-left: 0;
