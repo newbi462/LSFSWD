@@ -1,0 +1,38 @@
+/*
+
+Notice that we have 4 divs.  The <div> tag is already defaulted to display: block.  That is why all 4 of the boxes stack on top of each other.  Go through each step below to see the display property in action.
+
+Step 1: Fork this pen so you can own it!
+
+*/
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: gray;
+  margin: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+   /* Step 2: add an inline-block display property here and watch the layout of the boxes change  */
+}
+
+
+.box1 {
+  /* Step 3: display: block here and watch what happens to box 1.  Inspect the element with your dev tools and notice how this one box returns to its original behavior */
+}
+
+.box2 {
+    /* Step 4: display: inline here and watch what happens to box 2.  Notice that inline doesn't break the flow but the box loses it's width and height! */
+}
+
+.box3 {
+  /* Step 5: display: none here and watch what happens to box 3.  Notice it's completely removed from the flow of content! */
+}
+
+/* great work, now you have seen how the display property works with other elements! If you want to see a solution to this tutorial, you can check this link out:
+
+https://codepen.io/lambdaschool/pen/PyNNoL
+
+*/
