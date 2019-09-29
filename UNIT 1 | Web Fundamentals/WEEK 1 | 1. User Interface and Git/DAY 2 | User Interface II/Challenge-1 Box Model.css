@@ -28,6 +28,7 @@
 
   /* Box Model: Margin */
   margin: 20px;
+  z-index:+1;
 }
 
 .box-example1 {
@@ -56,6 +57,7 @@
 
   /* Box Model: Margin */
   margin: 20px;
+  z-index:+1;
 }
 
 .box-example2 {
@@ -80,6 +82,19 @@
 
   /* Box Model: Margin */
   margin: 32px auto;
+}
+.forcecenter {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-in
+
+  hight: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box-example3 {
