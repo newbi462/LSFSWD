@@ -1,0 +1,13 @@
+.container .item {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  border: 1px solid blue;
+  background: PaleVioletRed;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;/*defult is row and that would be like inline-block*/
+}
