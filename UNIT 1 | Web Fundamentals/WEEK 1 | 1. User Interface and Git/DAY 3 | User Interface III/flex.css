@@ -1,0 +1,41 @@
+.test {
+  display: flex; /*to enemable*/
+
+  flex-direction: row; /*the defult*/
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse; /*reverses the order of content*/
+
+  flex-wrap: nowrap;/*defult*/
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+
+  /*flex flow allows cobine of direction and wrap like board combinds border elements*/
+  flex-flow: column wrap;
+
+  /*main axix*/
+  justify-content: flex-start;/*defult*/
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  justify-content:
+
+  /*cross axix*/
+  align-items: stretch;/*defult*/
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: baseline;
+
+  align-content: stretch;/*defult*/
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: center;
+  align-content: space-around;
+  align-content: space-between;
+
+}
+
+/**/
