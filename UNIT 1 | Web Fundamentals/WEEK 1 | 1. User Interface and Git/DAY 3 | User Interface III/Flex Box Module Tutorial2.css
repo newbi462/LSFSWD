@@ -1,6 +1,6 @@
 .container .item {
-  height: 50px;
-  width: 50px;
+  height: 150px;
+  width: 150px;
   margin: 20px;
   border: 1px solid black;
   background: lightgray;
@@ -8,4 +8,7 @@
 
 .container {
   display: flex;
+/*  flex-direction: row-reverse;
+  flex-wrap: wrap;*/
+  flex-flow: row wrap;
 }
