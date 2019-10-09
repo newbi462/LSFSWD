@@ -1,0 +1,30 @@
+/*div {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+}*/
+
+/* WILD CARD SELECTOR OVER RIDERS FOR WHOLE PAGE
+* {
+
+}*/
+
+/*CLASSes are for mass or bluk use*/
+.box-class {
+  background-color: dodgerblue;
+  height: 200px;
+  width: 100px;
+  color: white;
+  padding: 40px;
+  border: 5px solid pink;
+  margin: 50px;
+}
+
+/*IDs are for ONE TIME USE*/
+#divId {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  background-color: red;
+  font-size: 20px;
+}
