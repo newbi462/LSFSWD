@@ -160,3 +160,69 @@ array.splice(i, 1);
 // would remove one item and "i" index and reduse the array, because it was replaced with nothing
 array.splice(INDEX-NUM, NUMBER TO DEL, what to replace or insers);
 /**/
+
+
+/*FOREACH*/
+/*The forEach() method executes a provided function once for each array element.*/
+
+var array1 = ['a', 'b', 'c'];
+
+array1.forEach(function(element) {
+  console.log(element);
+});
+
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+
+/*MAP*/
+/*The map() method creates a new array with the results of calling a provided function on every element in the calling array.*/
+var array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+
+/*FILTER*/
+/*The filter() method creates a new array with all elements that pass the test implemented by the provided function.*/
+
+var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+
+/*REDUCE*/
+/*The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.*/
+
+const array1 = [1, 2, 3, 4];
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+// 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer));
+// expected output: 10
+
+// 5 + 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer, 5));
+// expected output: 15
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+/*REDUSE WITH array of OBJECTS*/
+var arr = [{x:1},{x:2},{x:4}];
+
+arr.reduce(function (a, b) {
+  return {x: a.x + b.x}; // returns object with property x
+})
+
+// ES6
+arr.reduce((a, b) => ({x: a.x + b.x}));
+
+// -> {x: 7}
+// https://stackoverflow.com/questions/5732043/javascript-reduce-on-array-of-objects
