@@ -9,6 +9,7 @@ Any text with quotes around it is a string.*/
 /*string template literals*/
 `${cb[i].title} was made by ${cb[i].manufacturer} in ${cb[i].year}`
 // NOTE the use of ``(tildy) not the ''(quotse single or duble)
+// so ' and " do not need \ to work...
 
 /*NUMBERS*/
 const answer = 42;

@@ -31,7 +31,7 @@ function Child(attributes2) {
   this.isachild = attributes2.isachild; //?? arr atrobutes for this constructot?
 
 };
-Child.prototype = Object.create(Person.prototype);
+Child.prototype = Object.create(Person.prototype); //? links above proto?
 
 let samskid = new Child(
   {
