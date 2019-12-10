@@ -226,3 +226,13 @@ arr.reduce((a, b) => ({x: a.x + b.x}));
 
 // -> {x: 7}
 // https://stackoverflow.com/questions/5732043/javascript-reduce-on-array-of-objects
+
+//code from TL for this
+ticketPriceTotal  = runners.reduce( function(accumulator, currentValue) {
+    return accumulator + currentValue.donation;
+  }, 0);
+//console.log(ticketPriceTotal);
+
+
+
+//MUTATE CHECK  https://doesitmutate.xyz/

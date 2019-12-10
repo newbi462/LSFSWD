@@ -18,7 +18,7 @@ useEffect(() => {
     setApiData(response.data.photos)
   })
   .catch( error => {
-    console.log("sorry no dogs", error)
+    console.log("error", error.message)
   })
 },[])
 // this [] it to prevent an infanate loop, if you need the axios to run again put the paramiter change that should triger new CALL

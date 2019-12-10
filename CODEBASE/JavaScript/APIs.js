@@ -5,6 +5,9 @@ To use axios add to page
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 SEE AXIOS DOIC
 https://github.com/axios/axios
+
+INSTALL:
+npm install axios
 */
 
 /*TO CALL API with AXIOS*/

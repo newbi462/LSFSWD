@@ -1,0 +1,5 @@
+//Make Branch
+git checkout -b 'branch-name'
+
+// Publish/PUSH branch
+git push -u origin branch-name
