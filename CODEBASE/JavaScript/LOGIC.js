@@ -127,3 +127,15 @@ for (let i = 0; i < clone.length; i++) {
 
 console.log(clone); // [ 104, 104, 104, 100, 99 ]
 /*Used a clone to be safe and removed max values ELSE to check for a dupiket that is skiped*/
+
+
+
+
+//WAIT
+function stateChange(newState) {
+    setTimeout(function () {
+        if (newState == -1) {
+            alert('VIDEO HAS STOPPED');
+        }
+    }, 5000);
+}

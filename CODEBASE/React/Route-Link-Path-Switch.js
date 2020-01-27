@@ -49,3 +49,18 @@ import { Route } from 'react-router-dom';
     return null;
   }}
 />
+
+
+//NEEDS PrivateRoute Funtion
+<PrivateRoute path="/protected" component={NameOfComponCalled} />
+
+
+//SWITCH
+import { Switch } from "react-router-dom";
+
+<Switch>
+  <PrivateRoute path="/protected" component={FriendsList} />
+  <Route path="/login" component={Login} />
+  <Route component={Login} />
+</Switch>
+//RUNS UNTILL TRUE SO LAST ONE IS DEFULT

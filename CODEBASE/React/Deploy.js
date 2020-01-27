@@ -79,3 +79,34 @@ npm run deploy
 NOTE: this will over ride the "master" brantch, take care to have a BUILD BRANCH
 
 */
+
+
+
+//ZITE
+
+// IF IN SUB FOLDERmake a now.json
+
+{
+    "version": 2,
+    "name": "project-name",
+    "builds": [{ "src": "project-name/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+        { "src": "/(.*)", "dest": "project-name/$1" }
+    ]
+}
+
+//exsample from this repo https://github.com/better-professor-web23/front-end/blob/master/now.json
+{
+    "version": 2,
+    "name": "better-professor",
+    "builds": [{ "src": "better-professor/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+      { "src": "/(.*)", "dest": "better-professor/$1"}
+    ]
+  }
+
+//ZITE COMANDS
+
+//TO DEPLY
+// now
+//

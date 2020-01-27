@@ -142,3 +142,16 @@ if (age > 15){
 if (age <= 15) {
   console.log('younger than 15!');
 }
+
+
+/// IN ARROW
+function(a){
+    if(a < 10){
+        return 'valid';
+    }else{
+        return 'invalid';
+    }
+}
+//The equivalent in an arrow function using a ternary is:
+
+a => (a < 10) ? 'valid' : 'invalid'
