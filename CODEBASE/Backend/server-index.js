@@ -1,11 +1,16 @@
 //Dependancies
 const express = require("express");
+const cors = require('cors');
+const helmet = require('helmet');
+//SESSIONB DEPENDANCIES
 
 // Import Data
-
+const db = require('./data/db.js');
 
 //START WITH EXPRESS
 const server = express();
+
+//SESSION
 
 
 //CUSTOME MILLEWHARE/HANDLE FUNCTIONS OR INPORTS OF
@@ -17,6 +22,8 @@ function logger(request, responce, next) {
 }
 
 //MIDDLE WARE
+server.use(helmet());
+server.use(cors());
 server.use(express.json());
 server.use(logger);
 
@@ -32,5 +39,5 @@ server.get('/', logger, (req, res) => {
 
 
 //LISTEN SERVER
-const port = 8000;
+const port = process.env.PORT || 8000;
 server.listen(port, () => console.log((`\n ** api on: ${port} ** \n`)));

@@ -26,3 +26,10 @@ module.exports = knex(config);
 
 
 // was NODE_ENV but this build is DB_ENV
+
+
+
+//YOU MUST HAVE THE CLI
+//npm install heroku
+
+//npx heroku (comands)

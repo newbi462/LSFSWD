@@ -84,7 +84,7 @@ exports.down = function(knex) {
 //MAKE A FILE PER TABLE YOU NEED using the above "migrate:make"
 
 4) SETUP YOUR DB POINTER //convention is "db.js" in the "data" folder
-//START
+//START (may need to change this top the one that works good with testing)
 const knex = require('knex');
 
 const configOptions = require('../knexfile').development;//point to your "knexfile.js"
