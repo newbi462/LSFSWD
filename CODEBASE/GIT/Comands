@@ -3,3 +3,15 @@ git checkout -b 'branch-name'
 
 // Publish/PUSH branch
 git push -u origin branch-name
+
+
+
+To list remote branches:
+git branch -r
+
+You can check them out as local branches with:
+git checkout -b LocalName origin/remotebranchname
+
+
+If you want to list all remote branches:
+git branch -a

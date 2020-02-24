@@ -15,3 +15,7 @@ create-react-app animals
 //BECAUSE NOW IT IS AN APP ON YOUR SYSTEM RATHER THAN NPM?YARN TOOL
 
 */
+
+
+//MAKE A REDUC APP TEMPP
+// npx create-react-app my-app --template redux
