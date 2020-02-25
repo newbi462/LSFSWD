@@ -5,6 +5,10 @@ git checkout -b 'branch-name'
 git push -u origin branch-name
 
 
+git pull
+git fetch --all
+
+
 
 To list remote branches:
 git branch -r
