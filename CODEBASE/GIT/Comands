@@ -19,3 +19,10 @@ git checkout -b LocalName origin/remotebranchname
 
 If you want to list all remote branches:
 git branch -a
+
+
+After check out to avoid publish need and link local to remote
+git branch --set-upstream-to=origin/feature/role-schema feature/role-schema
+
+
+git checkout -b feature/role-schema
